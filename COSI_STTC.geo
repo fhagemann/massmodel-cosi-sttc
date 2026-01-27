@@ -84,10 +84,10 @@ SideWallLeft.Position 0.0 -3.1115 0.0
 SideWallLeft.Mother LabVolume
 
 # Add a source ring around the radioactive source
-# Include source_holder.geo
-# SourceHolderVolume.Position { -XLabToDetectorCenter + 0.2286 }  { -YLabToDetectorCenter + 47.6758 }  { -ZLabToDetectorCenter }
-# SourceHolderVolume.Visibility 1
-# SourceHolderVolume.Mother LabVolume
+Include source_holder.geo
+SourceHolderVolume.Position { -XLabToDetectorCenter + 0.2286 }  { -YLabToDetectorCenter + 47.6758 }  { -ZLabToDetectorCenter }
+SourceHolderVolume.Visibility 1
+SourceHolderVolume.Mother LabVolume
 
 Include lab339.geo
 Lab339.Position { -XLabToDetectorCenter }  { -YLabToDetectorCenter }  { -ZLabToDetectorCenter }
