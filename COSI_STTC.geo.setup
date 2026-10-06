@@ -1,0 +1,5 @@
+# Detector geometry
+Include COSI_STTC.geo
+
+# Detector information and trigger settings
+Include COSI_STTC.strip.det
